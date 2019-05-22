@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css-weixin-work/iconfont.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .iconfont{
+            font-size: 50px;
+        }
+        .iconfonts{
+            font-size: 90px;
+        }
+        .top{
+            height: 55px;            /*1*/
+            border: solid 1px #fff;
+            font-size: 30px;
+            line-height: 50px;
+
+        }
+
+        #wrap .top .time{
+            width: 200px;
+            float: left;
+        }
+        #wrap .top .icons{
+            width: 240px;
+            float: right;
+        }
+        /*2*/
+        #wrap .titles{
+            height: 360px;
+            border: solid 1px #fff;
+            background-color: #fff;
+
+        }
+        #wrap .titles .tit_content{
+            width: 100px;
+            /*width: 200px;*/
+            /*font-size: 50px;*/
+            line-height: 90px;
+            float: left;
+        }
+        #wrap .titles .iconss{
+            width: 120px;
+            float: right;
+            line-height: 90px;
+        }
+        /*3*/
+        #wrap ul{
+            list-style: none;
+            height: 1118px;
+            overflow: scroll;/*滚动条*/
+        }
+        #wrap ul li{
+            height: 120px;
+            border: #ddd solid 1px;
+        }
+        #wrap ul li .text1{
+            font-size: 50px;
+            margin-left: 60px;
+        }
+        #wrap ul li .boxx{
+            display: flex;
+            height: 120px;
+            width: 980px;
+            border: solid 1px #fff;
+            background-color: #fff;
+
+
+        }
+        #wrap ul li .boxx .imgs{
+            width: 120px;
+            height: 120px;
+        }
+        #wrap ul li .boxx .imgs .imgss {
+            width: 90px;
+            height: 90px;
+            border: solid 1px #fff;
+            margin: auto;
+            margin-top: 15px;
+        }
+        #wrap ul li .boxx .textt{
+            width: 829px;
+            height: 120px;
+            border:solid 1px #fff;
+            font-size: 50px;
+            line-height: 120px;
+        }
+        #wrap .manager{
+            display: flex;
+            height: 200px;
+            border: solid 1px #fff;
+            background-color: #fff;
+            opacity: 0.8;
+        }
+        #wrap .manager div{
+            flex: 1;
+            border: solid 1px #fff;
+        }
+        #wrap .manager .iconfont{
+            font-size: 100px;
+            margin-left: 50px;
+        }
+        #wrap .manager .text1{
+            /*text-align: center;*/
+            font-size: 50px;
+            margin-left: 50px;
+        }
+        a{
+            text-decoration:none;
+        }
+        .textt3{
+            height: 50px;
+            font-size: 40px;
+            text-align: center;
+        }
+        .huise{
+            background-color: #dddddd;
+            opacity: 0.7;
+        }
+
+        /**/
+
+       .titless{
+           height: 100px;
+           border: solid 1px #fff;
+       }
+        .tx_boxx{
+            height: 254px;
+            border: solid 1px #fff;
+
+        }
+        .tx_boxx .tx_boxxx{
+            width: 254px;
+            height: 254px;
+            border: solid 1px #fff;
+            float: left;
+        }
+        .tx_boxx .tx_boxxx .tx{
+            width: 150px;
+            height: 150px;
+            border: solid 1px #fff;
+           margin: auto;
+            margin-top: 22px;
+        }
+        .tx_boxx .nich{
+            width: 500px;
+            height: 254px;
+            border: solid 1px #fff;
+            float: left;
+
+        }
+        .tx_boxx .tubma{
+            width: 215px;
+            height: 254px;
+            border: solid 1px #fff;
+            float: right;
+
+        }
+        .tx_boxx .nich .nich1{
+            width: 500px;
+            height: 100px;
+            border: solid 1px #fff;
+            float: left;
+            font-size: 50px;
+
+            margin-top: 21px;
+        }
+
+        .tx_boxx .nich .nich2{
+              width: 500px;
+              height: 100px;
+              border: solid 1px #fff;
+              float: left;
+          }
+        .nich2 .nich2_text{
+            color: black;
+            opacity: 0.5;
+            font-size: 35px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            vertical-align: top;
+        }
+        .tx_boxx .tubma .nich3{
+            width: 215px;
+            height: 100px;
+            border: solid 1px #fff;
+            float: right;
+           margin-top: 123px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <!--1-->
+    <div class="top">
+        <div class="time">13：25</div>
+        <div class="icons">
+            <span class="iconfont">&#xe600;</span>
+            <span class="iconfont">&#xe607;</span>
+            <span class="iconfont">&#xeb07;</span>
+            <span class="iconfont">&#xe696;</span>
+        </div>
+    </div>
+    <!--2-->
+    <div class="titles">
+        <div class="titless">
+            <div class="tit_content"></div>
+            <div class="iconss">
+                <span class="iconfont">&#xe628;</span>
+            </div>
+        </div>
+        <div class="tx_boxx">
+            <div class="tx_boxxx">
+                <div class="tx">
+                    <img src="img-work/天明.jpeg" width="150px"height="150px">
+                </div>
+            </div>
+            <div class="nich">
+                <div class="nich1"><span>天明</span></div>
+                <div class="nich2"><div class="nich2_text">微信号：jtm1619368483</div></div>
+            </div>
+            <div class="tubma">
+                <div class="nich3"><span class="iconfont" ><span class="iconfonts">&#xe617;</span></span></div>
+            </div>
+        </div>
+    </div>
+    <!--3-->
+    <ul>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe61c;</span></span></div>
+                </div>
+                <div class="textt"><a href="">支付</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe616;</span></span></div>
+                </div>
+                <div class="textt"><a href="">收藏</a></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe621;</span></span></div>
+                </div>
+                <div class="textt"><a href="">相册</a></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe79f;</span></span></div>
+                </div>
+                <div class="textt"><a href="">卡包</a></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe671;</span></span></div>
+                </div>
+                <div class="textt"><a href="">表情</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe62f;</span></span></div>
+                </div>
+                <div class="textt"><a href="">设置</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 359px;line-height: 20px " ></li>
+    </ul>
+    <div class="manager">
+        <div  class="dia1">
+            <a href="weixin-work.html">
+                <span class="iconfont">&#xe62b;</span><br>
+                <span class="text1">
+                             <span>微信</span>
+                         </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="weixin002.html">
+                <span class="iconfont">&#xe606;</span><br>
+                <span class="text1">
+                             <span>通讯录</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="weixin003.html">
+                <span class="iconfont">&#xe746;</span><br>
+                <span class="text1">
+                             <span>发现</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="#">
+                <span class="iconfont">&#xe626;</span><br>
+                <span class="text1">
+                             <span>我的</span>
+                    </span>
+            </a>
+        </div>
+
+    </div>
+    <span style="position: absolute;top: 300px;left: 856px;"><img src="img-work/大于.png" alt=""></span>
+    <span style="position: absolute;top: 490px;left: 856px;"><img src="img-work/大于.png" alt=""></span>
+    <span style="position: absolute;top: 620px;left: 856px;"><img src="img-work/大于.png" alt=""></span>
+    <span style="position: absolute;top: 750px;left: 856px;"><img src="img-work/大于.png" alt=""></span>
+    <span style="position: absolute;top: 870px;left: 856px;"><img src="img-work/大于.png" alt=""></span>
+    <span style="position: absolute;top: 980px;left: 856px;"><img src="img-work/大于.png" alt=""></span>
+    <span style="position: absolute;top: 1130px;left: 856px;"><img src="img-work/大于.png" alt=""></span>
+
+</div>
+
+</body>
+</html>

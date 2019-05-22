@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css-weixin-work/iconfont.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html body .iconfont{
+            font-size: 50px;
+        }
+        /*1*/
+        .top{
+            height: 55px;
+            border: solid 1px black;
+            font-size: 30px;
+            line-height: 50px;
+        }
+        #wrap .top .time{
+            width: 200px;
+            float: left;
+        }
+        #wrap .top .icons{
+            width: 240px;
+            float: right;
+        }
+        /*2*/
+        #wrap .titles{
+            height: 105px;
+            border: black solid 1px;
+            /*background-color: #aaaaaa;*/
+        }
+        #wrap .titles .tit_content{
+            width: 100px;
+            /*width: 200px;*/
+            font-size: 50px;
+            line-height: 90px;
+            float: left;
+        }
+        #wrap .titles .iconss{
+            width: 120px;
+            float: right;
+            line-height: 90px;
+        }
+        /*3*/
+        #wrap ul{
+            list-style: none;
+            height: 1400px;
+            overflow: scroll;/*滚动条*/
+        }
+        #wrap ul li{
+            height: 150px;
+            border: black solid 1px;
+        }
+        #wrap ul li .boxx{
+            display: flex;
+            height: 140px;
+            width: 980px;
+            border: solid 1px #fff;
+        }
+        #wrap ul li .boxx .imgs{
+            width: 150px;
+            height: 150px;
+        }
+        #wrap ul li .boxx .imgs .imgss{
+            width: 90px;
+            height:90px;
+            border: solid 1px #fff;
+            margin: auto;
+           margin-top: 30px;
+        }
+        #wrap ul li .boxx .textt{
+            width: 829px;
+            height: 150px;
+            border:solid 1px #fff;
+        }
+        #wrap ul li .boxx .textt .textt1{
+            width: 829px;
+            height:70px;
+            border:solid 1px #fff;
+            font-size: 40px;
+            display: table-cell;/*按照单元格的样式显示元素*/
+            vertical-align: bottom;/*底对齐*/
+
+        }
+        #wrap ul li .boxx .textt .textt2{
+            width: 400px;
+            height:70px;
+            border:solid 1px #fff;
+        }
+        .coent-text{
+            color: black;
+            opacity: 0.5;
+            font-size: 35px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            vertical-align: top;
+        }
+        #wrap .manager{
+            display: flex;
+            height: 200px;
+            border: solid 1px #fff;
+        }
+        #wrap .manager div{
+            flex: 1;
+            border: solid 1px #fff;
+        }
+        #wrap .manager .iconfont{
+            font-size: 100px;
+            margin-left: 50px;
+        }
+        #wrap .manager .text1{
+            /*text-align: center;*/
+            font-size: 50px;
+            margin-left: 50px;
+        }
+        a{
+            text-decoration:none;
+        }
+        .a5{
+            width: 300px;
+            height: 400px;
+            background-color: red;
+            display: none;
+            position:absolute;
+            top: 58px;
+            left: 676px;
+        }
+        .titles .iconss:hover .a5{
+            background-color: black;
+            display: block;
+        }
+        .textt3{
+            height: 50px;
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+        <div id="wrap">
+            <!--1-->
+            <div class="top">
+                <div class="time">13：25</div>
+                <div class="icons">
+                    <span class="iconfont">&#xe600;</span>
+                    <span class="iconfont">&#xe607;</span>
+                    <span class="iconfont">&#xeb07;</span>
+                    <span class="iconfont">&#xe696;</span>
+                </div>
+            </div>
+            <!--2-->
+            <div class="titles">
+                <div class="tit_content">微信</div>
+                <div class="iconss">
+                    <span class="iconfont">&#xe637;</span><!--&nbsp;-->
+                    <span class="iconfont">&#xe611;</span>
+                    </span>
+                    <span class="a5">
+                    <div class="textt3"><span>发起群聊</span></div>
+                    <div class="textt3"><span>添加朋友</span></div>
+                    <div class="textt3"><span>扫一扫</span></div>
+                    <div class="textt3"><span>收付款</span></div>
+                    <div class="textt3"><span>帮助与反馈</span></div>
+                </span>
+                </div>
+            </div>
+            <!--3-->
+            <ul>
+                <li>
+                    <div class="boxx">
+                        <div class="imgs">
+                            <div class="imgss">
+                                <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                                <img src="img-work/月儿.jpeg" width="90px"height="90px">
+                            </div>
+                        </div>
+                        <div class="textt">
+                            <div class="textt1"><span>月儿</span></div>
+                            <div class="textt2"><div class="coent-text">月儿是我见过最善良最好看的女孩儿</div></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="boxx">
+                        <div class="imgs">
+                            <div class="imgss">
+                                <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                                <img src="img-work/大叔.jpeg" width="90px"height="90px">
+                            </div>
+                        </div>
+                        <div class="textt">
+                            <div class="textt1"><span>大叔</span></div>
+                            <div class="textt2"><div class="coent-text">要想成为强者，就不要回避心理的恐惧！</div></div>
+                        </div>
+                    </div>
+                </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/嬴政.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>嬴政</span></div>
+                        <div class="textt2"><div class="coent-text">欲亡我大秦 痴人说梦！</div></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/卫庄.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>卫庄</span></div>
+                        <div class="textt2"><div class="coent-text">纵与横，这就是每一代鬼谷弟子的宿命</div></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/少司命.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>少司命</span></div>
+                        <div class="textt2"><div class="coent-text">你怎么不说话</div></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/少羽.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>少羽</span></div>
+                        <div class="textt2"><div class="coent-text">我们项式一族是最强的</div></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/张良.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>张良</span></div>
+                        <div class="textt2"><div class="coent-text">当一个人的心中有着更高的山峰想去攀登时，他就不会在意脚下的泥沼，他才可能用最平静的方式去面对一般人难以承受的痛苦</div></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/白凤.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>白凤</span></div>
+                        <div class="textt2"><div class="coent-text">在万里高空中，只有把握风的动向，才能驾驭它。你用这种招数对付能驾驭风的我，这是你最失策的地方</div></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/盗跖.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>盗跖</span></div>
+                        <div class="textt2"><div class="coent-text">作为一个高明的盗贼，离开现场前必须有能力将每一个细节复原，否则，会带来无法挽回的伤害</div></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="boxx">
+                    <div class="imgs">
+                        <div class="imgss">
+                            <!--<div class="qqq"style="background-image: url('img-work/1.jpg')"></div>-->
+                            <img src="img-work/高渐离.jpeg" width="90px"height="90px">
+                        </div>
+                    </div>
+                    <div class="textt">
+                        <div class="textt1"><span>高渐离</span></div>
+                        <div class="textt2"><div class="coent-text">燕国深秋的雨虽然凄美,但却冰寒彻骨</div></div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        <div class="manager">
+            <div  class="dia1">
+                     <a href="#">
+                         <span class="iconfont">&#xe62b;</span><br>
+                         <span class="text1">
+                             <span>微信</span>
+                         </span>
+                     </a>
+            </div>
+            <div  class="dia1">
+                <a href="weixin002.html">
+                    <span class="iconfont">&#xe606;</span><br>
+                    <span class="text1">
+                             <span>通讯录</span>
+                    </span>
+                </a>
+            </div>
+            <div  class="dia1">
+                <a href="weixin003.html">
+                    <span class="iconfont">&#xe746;</span><br>
+                    <span class="text1">
+                             <span>发现</span>
+                    </span>
+                </a>
+            </div>
+            <div  class="dia1">
+                <a href="weixin004.html">
+                    <span class="iconfont">&#xe626;</span><br>
+                    <span class="text1">
+                             <span>我的</span>
+                    </span>
+                </a>
+            </div>
+            <!--<div>-->
+                <!--<span class="iconfont">&#xe6c2;</span><br>-->
+                <!--<span class="text1">-->
+                     <!--<a href="weixin002.html">通讯录</a>-->
+                <!--</span>-->
+            <!--</div>-->
+            <!--<div>-->
+                <!--<span class="iconfont">&#xe746;</span><br>-->
+                <!--<span class="text1">-->
+                      <!--<a href="weixin003.html">发现</a>-->
+                <!--</span>-->
+            <!--</div>-->
+            <!--<div>-->
+                <!--<span class="iconfont">&#xe626;</span><br>-->
+                <!--<span class="text1">-->
+                      <!--<a href="weixin004.html">我的</a>-->
+                <!--</span>-->
+            <!--</div>-->
+        </div>
+    </div>
+</body>
+</html>

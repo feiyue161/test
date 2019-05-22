@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css-weixin-work/iconfont.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .iconfont{
+            font-size: 50px;
+        }
+        .iconfonts{
+            font-size: 90px;
+        }
+        .top{
+            height: 55px;            /*1*/
+            border: solid 1px #dddddd;
+            font-size: 30px;
+            line-height: 50px;
+            background-color: #dddddd;
+            opacity: 0.7;
+
+        }
+
+        #wrap .top .time{
+            width: 200px;
+            float: left;
+        }
+        #wrap .top .icons{
+            width: 240px;
+            float: right;
+        }
+        /*2*/
+        #wrap .titles{
+            height: 105px;
+            border: solid 1px #dddddd;
+            background-color: #dddddd;
+            opacity: 0.7;
+
+        }
+        #wrap .titles .tit_content{
+            width: 100px;
+            /*width: 200px;*/
+            font-size: 50px;
+            line-height: 90px;
+            float: left;
+        }
+        #wrap .titles .iconss{
+            width: 120px;
+            float: right;
+            line-height: 90px;
+        }
+        /*3*/
+        #wrap ul{
+            list-style: none;
+            height: 1400px;
+            overflow: scroll;/*滚动条*/
+        }
+        #wrap ul li{
+            height: 120px;
+            border: #ddd solid 1px;
+        }
+        #wrap ul li .text1{
+            font-size: 50px;
+            margin-left: 60px;
+        }
+        #wrap ul li .boxx{
+            display: flex;
+            height: 120px;
+            width: 980px;
+            border: solid 1px #fff;
+            background-color: #fff;
+
+
+        }
+        #wrap ul li .boxx .imgs{
+            width: 120px;
+            height: 120px;
+        }
+        #wrap ul li .boxx .imgs .imgss {
+            width: 90px;
+            height: 90px;
+            border: solid 1px #fff;
+            margin: auto;
+            margin-top: 15px;
+        }
+        #wrap ul li .boxx .textt{
+            width: 829px;
+            height: 120px;
+            border:solid 1px #fff;
+            font-size: 50px;
+            line-height: 120px;
+        }
+        #wrap .manager{
+            display: flex;
+            height: 200px;
+            border: solid 1px #fff;
+
+        }
+        #wrap .manager div{
+            flex: 1;
+            border: solid 1px #fff;
+        }
+        #wrap .manager .iconfont{
+            font-size: 100px;
+            margin-left: 50px;
+        }
+        #wrap .manager .text1{
+            /*text-align: center;*/
+            font-size: 50px;
+            margin-left: 50px;
+        }
+        a{
+            text-decoration:none;
+        }
+        /*ul li:nth-child(5){*/
+        /*background-color: #dddddd;*/
+        /*!*padding-top: 10px;*!*/
+        /*}*/
+        .huise{
+            background-color: #dddddd;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <!--1-->
+    <div class="top">
+        <div class="time">13：25</div>
+        <div class="icons">
+            <span class="iconfont">&#xe600;</span>
+            <span class="iconfont">&#xe607;</span>
+            <span class="iconfont">&#xeb07;</span>
+            <span class="iconfont">&#xe696;</span>
+        </div>
+    </div>
+    <!--2-->
+    <div class="titles">
+        <div class="tit_content">发现</div>
+        <div class="iconss">
+            <!--&nbsp;-->
+            <span class="iconfont">&#xe628;</span>
+
+        </div>
+    </div>
+    <!--3-->
+    <ul>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe608;</span></span></div>
+                </div>
+                <div class="textt"><a href="weixin005.html">朋友圈</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe60c;</span></span></div>
+                </div>
+                <div class="textt"><a href="">扫一扫</a></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe60e;</span></span></div>
+                </div>
+                <div class="textt"><a href="">摇一摇</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe60b;</span></span></div>
+                </div>
+                <div class="textt"><a href="">看一看</a></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe613;</span></span></div>
+                </div>
+                <div class="textt"><a href="">搜一搜</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe646;</span></span></div>
+                </div>
+                <div class="textt"><a href="">附近的人</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe60d;</span></span></div>
+                </div>
+                <div class="textt"><a href="">购物</a></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe615;</span></span></div>
+                </div>
+                <div class="textt"><a href="">游戏</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 20px;line-height: 20px " ></li>
+        <li>
+            <div class="boxx">
+                <div class="imgs">
+                    <div class="imgss"><span class="iconfont" style="color:#1296db "><span class="iconfonts">&#xe612;</span></span></div>
+                </div>
+                <div class="textt"><a href="">小程序</a></div>
+            </div>
+        </li>
+        <li class="huise" style="height: 260px;line-height: 20px " ></li>
+
+
+    </ul>
+    <div class="manager">
+        <div  class="dia1">
+            <a href="weixin-work.html">
+                <span class="iconfont">&#xe62b;</span><br>
+                <span class="text1">
+                             <span>微信</span>
+                         </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="weixin002.html">
+                <span class="iconfont">&#xe606;</span><br>
+                <span class="text1">
+                             <span>通讯录</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="#">
+                <span class="iconfont">&#xe746;</span><br>
+                <span class="text1">
+                             <span>发现</span>
+                    </span>
+            </a>
+        </div>
+        <div  class="dia1">
+            <a href="weixin004.html">
+                <span class="iconfont">&#xe626;</span><br>
+                <span class="text1">
+                             <span>我的</span>
+                    </span>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
