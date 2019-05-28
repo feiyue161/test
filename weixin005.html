@@ -5,111 +5,219 @@
     <title>Title</title>
     <link rel="stylesheet" href="css-weixin-work/iconfont.css">
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
         }
-        html body .iconfont{
+
+        html body .iconfont {
             font-size: 50px;
         }
-        /*1*/
-        .top{
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .bjimg {
+
+            height: 564px;
+            border: solid 1px #FFFFFF;
+            background-image: url("img-work/朋友圈背景.jpg ");
+            background-size: 980px 564px;
+        }
+
+        /*通知栏*/
+        .top {
+            width: 980px;
             height: 55px;
-            border: solid 1px #aaa;
             font-size: 30px;
             line-height: 50px;
+            color: #FFFFFF;
+            position: fixed;
+            top: 0;
+
         }
-        #wrap .top .time{
-            width: 200px;
-            float: left;
-        }
-        #wrap .top .icons{
-            width: 240px;
-            float: right;
-        }
-        #wrap .tit{
+
+        .tit {
+            width: 980px;
             height: 105px;
-            border: solid 1px #aaa;
+            color: #F7F7F7;
+            position: fixed;
+            top: 55px;
         }
-        #wrap .tit .tit_content{
-            width: 150px;
-            /*width: 200px;*/
+
+        .tit .fanhui {
+            color: #F7F7F7;
             font-size: 50px;
-            line-height: 90px;
-            float: left;
         }
-        #wrap .tit .iconss{
+
+        .tit .iconss {
             margin-right: 50px;
             float: right;
             line-height: 90px;
         }
-        #wrap ul li .boxx{
+
+        .touxiang {
+            height: 105px;
+            background-color: #FFFFFF;
+        }
+
+        .tx {
+            position: absolute;
+            top: 476px;
+            right: 27px;
+        }
+
+        .nc {
+            color: #ffffff;
+            font-size: 40px;
+            position: absolute;
+            top: 504px;
+            right: 200px;
+
+        }
+
+        .py {
+            font-size: 40px;
+            width: 860px;
+            height: 100px;
+            line-height: 100px;
+            position: relative;
+            top: 0px;
+            left: 62px;
+        }
+
+        ul {
+            list-style: none;
+            height: 1450px;
+            overflow: scroll; /*滚动条*/
+        }
+
+        ul li .boxx {
             display: flex;
-            height: 140px;
-            width: 980px;
-            border: solid 1px #fff;
+            height: 500px;
+            width: 978px;
+            border: solid 1px #FFFFFF;
         }
-        #wrap ul li .boxx .imgs{
+
+        ul li .boxx .imgs {
             width: 150px;
-            height: 150px;
-            /*background-image: url("img-work/1.jpg");*/
+            height: 500px;
+            border: solid 1px #FFFFFF;
         }
-        #wrap ul li .boxx .imgs .imgss{
+
+        ul li .boxx .imgs .imgss {
             width: 90px;
-            height:90px;
-            border: solid 1px #fff;
+            height: 90px;
+            border: solid 1px #FFFFFF;
             margin: auto;
             margin-top: 30px;
-            /*background-image: url("img-work/1.jpg");*/
         }
-        /*.qqq{*/
-        /*width: 90px;*/
-        /*height: 90px;*/
-        /*}*/
-        #wrap ul li .boxx .textt{
-            width: 829px;
-            height: 150px;
-            border:solid 1px #fff;
+
+        ul li .boxx .textt {
+            width: 825px;
+            height: 500px;
+            border: solid 1px #FFFFFF;
         }
-        #wrap ul li .boxx .textt .textt1{
+
+        ul li .boxx .textt .textt1 {
+            color: #62739E;
             width: 829px;
-            height:70px;
-            border:solid 1px #fff;
+            height: 68px;
+            border: solid 1px #FFFFFF;
             font-size: 40px;
-            display: table-cell;/*按照单元格的样式显示元素*/
-            vertical-align: bottom;/*底对齐*/
+            display: table-cell; /*按照单元格的样式显示元素*/
+            vertical-align: bottom; /*底对齐*/
 
         }
-        #wrap ul li .boxx .textt .textt2{
-            width: 400px;
-            height:70px;
-            border:solid 1px #fff;
-        }
-        .coent-text{
-            color: black;
-            opacity: 0.5;
-            font-size: 35px;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            vertical-align: top;
-        }
-        a{
-            text-decoration:none;
-        }
-        .huise{
-            background-color: #ff0000;
 
+        ul li .boxx .textt .tk {
+            width: 829px;
+            height: 10px;
+            border: solid 1px #FFFFFF;
+
+        }
+
+        ul li .boxx .textt .textt2 {
+            width: 829px;
+            height: 58px;
+            border: solid 1px #FFFFFF;
+            font-size: 40px;
+        }
+
+        ul li .boxx .textt .sj {
+            width: 829px;
+            height: 60px;
+            /*font-size: 30px;*/
+            /*border: solid 1px #000000;*/
+            /*line-height: 60px;;*/
+        }
+
+        ul li .boxx .textt .sj .sjxs {
+            width: 770px;
+            height: 60px;
+            font-size: 30px;
+            /*border: solid 1px #ff0000;*/
+            line-height: 60px;;
+        }
+
+        /*.textt .weilei .dian {*/
+        /*position: absolute;*/
+        /*top: 1158px;*/
+        /*right: 85px;*/
+        /*}*/
+        .aaa {
+            float: right;
+            line-height: 60px;
+            margin-right: 20px;
+        }
+
+        .a5 {
+            display: flex;
+            width: 300px;
+            height: 60px;
+            background-color: red;
+            display: none;
+            position: absolute;
+            top: 1158px;
+            right: 143px;
+        }
+
+        .a5 .wldz {
+            flex: 1;
+            border: solid 1px #000000;
+        }
+
+        .titles .weilei:hover .a5 {
+            display: block;
+            background-color: black;
+            opacity: 0.9;
+        }
+
+        .weilei_text1 {
+            size: 40px;
+            line-height: 60px;
+            margin-left: 2px;
+            color: white
+        }
+
+        .weilei_text2 {
+            color: white;
+            font-size: 40px;
+            margin-left: 2px;
         }
     </style>
 </head>
 <body>
 <div id="wrap">
-    <!--1-->
+    <div class="bjimg"></div>
+    <!--通知栏-->
     <div class="top">
-        <div class="time">13：25</div>
-        <div class="icons">
-            <span class="iconfont">&#xe600;</span>
+        <div style="float: left">
+            <span>13:25</span>&nbsp;<span class="iconfont">&#xe600;</span>&nbsp;<span>2.5M/s</span>
+        </div>
+        <div style="float: right">
             <span class="iconfont">&#xe607;</span>
             <span class="iconfont">&#xeb07;</span>
             <span class="iconfont">&#xe696;</span>
@@ -117,75 +225,56 @@
     </div>
     <!--2-->
     <div class="tit">
-        <div class="tit_content"><a href="weixin003.html">朋友圈</a></div>
+        <a href="weixin003.html">
+            <span class="fanhui"> < </span>
+        </a>
         <div class="iconss"><span class="iconfont">&#xe628;</span></div>
     </div>
+    <div class="touxiang"></div>
+    <div class="tx"><img src="img-work/天明.jpeg" width="150px" height="150px"></div>
+    <div class="nc">天明</div>
+    <div class="py">朋友的新动态<span style="float: right"><img src="img-work/大于.png" alt=""></span></div>
     <!--3-->
     <ul>
-        <li class="huise" style="height: 400px;line-height: 20px " >
-            <img src="img-work/朋友圈背景.jpg "width="980px" height="400px" alt="">
-        </li>
-        <li class="huise" style="height: 150px;line-height: 20px " ></li>
-        <li class="huise" style="height: 150px;line-height: 20px " ></li>
-        <li>
-            <div class="boxx">
-                <div class="imgs">
-                    <div class="imgss"></div>
-                </div>
-                <div class="textt">
-                    <div class="textt1"></div>
-                    <div class="textt2"></div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <div class="boxx">
-                <div class="imgs">
-                    <div class="imgss"></div>
-                </div>
-                <div class="textt">
-                    <div class="textt1"></div>
-                    <div class="textt2"></div>
-                </div>
-            </div>
-        </li>
         <li>
             <div class="boxx">
                 <div class="imgs">
                     <div class="imgss">
-                        <img src="img-work/高渐离.jpeg" width="90px"height="90px">
+                        <img src="img-work/高渐离.jpeg" width="90px" height="90px">
                     </div>
                 </div>
                 <div class="textt">
                     <div class="textt1"><span>高渐离</span></div>
-                    <div class="textt2"><div class="coent-text">燕国深秋的雨虽然凄美,但却冰寒彻骨</div></div>
+                    <div class="tk"></div>
+                    <div class="textt2"><span>风萧萧兮易水寒！</span></div>
+                    <div class="tk"></div>
+                    <div><img src="img-work/高渐离朋友圈.jpg" width="400px" height="200px"></div>
+                    <div class="tk"></div>
+                    <div class="tk"></div>
+                    <div class="sj">
+                        <div class="sjxs">5小时前
+                            <img src="img-work/点.png"  style="float: right"></div>
+                        </div>
+                        <!--<div class="aaa">-->
+                                <!--<span class="iconfont">-->
+                                    <!--<span>&#xe611;</span>-->
+                                    <!--<div class="weilei">-->
+                                        <!--<div class="a5">-->
+                                            <!--<div class="wldz"><span class="iconfont weilei_text1">&#xe62b;</span><span-->
+                                            <!--class="weilei_text2">赞</span></div>-->
+                                            <!--<div class="wldz"><span class="iconfont weilei_text1">&#xe62b;</span><span-->
+                                            <!--class="weilei_text2">评论</span></div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</span>-->
+
+
+                        <!--</div>-->
+                    </div>
                 </div>
+
             </div>
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
         <li></li>
         <li></li>
         <li></li>
