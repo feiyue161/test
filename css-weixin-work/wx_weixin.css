@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html body .iconfont {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*通知栏*/
+.top {
+    height: 55px;
+    border: solid 1px #EDEDED;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #EDEDED;
+}
+
+/*搜索栏*/
+.titles {
+    height: 105px;
+    border: solid 1px #EDEDED;
+    background-color: #EDEDED;
+}
+
+.titles .tit_content {
+    /*width: 100px;*/
+    font-size: 50px;
+    line-height: 90px;
+    /*float: left;*/
+    position: absolute;
+    top:60px ;
+    left: 20px;
+}
+
+.titles .sousuo_icons {
+    position: absolute;
+    top: 75px;
+    right: 115px;
+}
+
+.titles .weilei .iconss {
+    /*float: right;*/
+    line-height: 90px;
+    margin-right: 20px;
+    position: absolute;
+    top: 63px;
+    right: 20px;
+}
+
+.a5 {
+    width: 300px;
+    height: 460px;
+    background-color: red;
+    display: none;
+    position: absolute;
+    top: 166px;
+    left: 676px;
+}
+
+.titles .weilei:hover .a5 {
+    display: block;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.a5 ul {
+    list-style: none;
+    height: 460px;
+}
+
+.a5 ul li {
+    height: 92px;
+    border: solid 1px #000000;
+}
+
+.weilei_text1 {
+    size: 40px;
+    line-height: 90px;
+    margin-left: 20px;
+    color: white
+}
+
+.weilei_text2 {
+    color: white;
+    font-size: 40px;
+    margin-left: 11px;
+}
+
+/*主体页面*/
+ul {
+    list-style: none;
+    height: 1450px;
+    overflow: scroll; /*滚动条*/
+}
+
+ul li {
+    height: 150px;
+    border: solid 1px #eee;
+}
+
+ul li .boxx {
+    display: flex;
+    height: 149px;
+    width: 980px;
+    border: solid 1px #fff;
+}
+
+ul li .boxx .imgss {
+    width: 150px;
+    height: 150px;
+}
+
+ul li .boxx .textt {
+    width: 600px;
+    height: 150px;
+    border: solid 1px #fff;
+}
+
+ul li .boxx .ltsj {
+    width: 230px;
+    height: 150px;
+    border: solid 1px #fff;
+}
+
+ul li .boxx .ltsj .time {
+    font-size: 30px;
+    line-height: 150px;
+    opacity: 0.5;
+    float: right;
+    padding-right: 73px;
+}
+
+ul li .boxx .imgss .touxiang {
+    width: 90px;
+    height: 90px;
+    border: solid 1px #fff;
+    margin: auto;
+    margin-top: 30px;
+}
+
+ul li .boxx .textt .nicheng {
+    width: 829px;
+    height: 70px;
+    border: solid 1px #fff;
+    font-size: 40px;
+    display: table-cell; /*按照单元格的样式显示元素*/
+    vertical-align: bottom; /*底对齐*/
+}
+
+ul li .boxx .textt .textt2 {
+    width: 600px;
+    height: 70px;
+    border: solid 1px #fff;
+}
+
+.coent-text {
+    color: black;
+    opacity: 0.5;
+    font-size: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+/*底部*/
+.manager {
+    display: flex;
+    height: 150px;
+    border: solid 1px #F7F7F7;
+    background-color: #F7F7F7;
+}
+
+.manager div {
+    flex: 1;
+    border: solid 1px #F7F7F7;
+}
+
+.manager .iconfont {
+    font-size: 70px;
+}
+.dbtb{
+    height: 75px;
+    border: solid 1px #F7F7F7;
+    text-align: center;
+}
+.dbwz{
+    width: 242px;
+    height: 75px;
+    border: solid 1px #F7F7F7;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+
+}
